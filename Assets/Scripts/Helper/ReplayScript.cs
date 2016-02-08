@@ -5,9 +5,13 @@
 /// </summary>
 class ReplayScript : MonoBehaviour
 {
+    public PlayerScript player;
     public void onClick()
     {
-        Application.LoadLevel(Application.loadedLevel);
+        if (player.health <= 0)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
 }
 
