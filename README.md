@@ -12,6 +12,8 @@ Il s’agit un shooter à scrolling vertical, dans lequel le but est de tuer les
 * Tirer : Clique gauche 
 * Déplacement : Flèches directionnelles 
 
+##C#
+Le code C# n'est malheureusement pas très technique, mais on pourra y noter la présence d'une méthode d'extension de la classe Render (Assets/Scripts/Helper/RendererExtensions.cs) et une méthode LINQ (Assets/Scripts/Helper/ScrollingScript.cs).
 
 ##Sources
 * Certains fichiers de code sont issus du tutoriel suivant :  [Tuto](http://pixelnest.io/tutorials/creer-un-jeu-2d-avec-unity/sommaire/).
